@@ -45,7 +45,7 @@ function handleClickEvent() {
     changeOwed = (changeOwed%20).toFixed(2);
     document.getElementById("twenty-dollar-output").innerHTML = twentyDollarValue;
 
-    console.log("singleDollarValue",singleDollarValue)
+    //console.log("singleDollarValue",singleDollarValue)
 
     document.getElementById("change-returned-msg").innerHTML= `Your change is $${amtReceived - amtDue}`;
     //console.log(amtReceived,amtDue)
