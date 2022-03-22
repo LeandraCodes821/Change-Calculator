@@ -10,7 +10,9 @@ function handleClickEvent() {
 
     let wholeDollars = Math.floor(changeOwed/1);
     changeOwed = (changeOwed%1).toFixed(2);
-    document.getElementById("dollars-output").innerHTML = wholeDollars;
+    document.getElementById("dollars-output").innerHTML = `${wholeDollars} dollars`;
+
+    //`Your change is $${amtReceived - amtDue}`
 
 
     let quarterValue = Math.floor(changeOwed/.25);
