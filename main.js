@@ -17,19 +17,19 @@ function handleClickEvent() {
 
     let quarterValue = Math.floor(changeOwed/.25);
     changeOwed = (changeOwed%.25).toFixed(2);
-    document.getElementById("quarters-output").innerHTML = quarterValue;
+    document.getElementById("quarters-output").innerHTML = `${quarterValue} quarters`;
 
     let dimeValue = Math.floor(changeOwed/.10);
     changeOwed = (changeOwed%.10).toFixed(2);
-    document.getElementById("dimes-output").innerHTML = dimeValue;
+    document.getElementById("dimes-output").innerHTML = `${dimeValue} dimes`;
 
     let nickelValue = Math.floor(changeOwed/0.05);
     changeOwed = (changeOwed%0.05).toFixed(2);
-    document.getElementById("nickels-output").innerHTML = nickelValue;
+    document.getElementById("nickels-output").innerHTML =`${nickelValue} nickels`;
 
     let pennyValue = Math.floor(changeOwed/0.01);
     changeOwed = (changeOwed%0.01).toFixed(2);
-    document.getElementById("pennies-output").innerHTML = pennyValue;
+    document.getElementById("pennies-output").innerHTML = `${pennyValue} pennies`;
 
     let twoDollarValue = Math.floor(changeOwed/2.00);
     changeOwed = (changeOwed%2).toFixed(2);
