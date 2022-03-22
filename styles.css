@@ -7,3 +7,10 @@ h1 {
     font-weight: bold;
     color:red;
     text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: beige ;
+}
